@@ -1,0 +1,18 @@
+version: '1'
+
+description: Example codebase project template
+
+params:
+    - name: name
+      prompt: What's the name for the project?
+      required: true
+      kind: string
+    
+    - name: deployment
+      prompt: What kind of deployment should be included? 
+      kind: enum
+      required: true
+      enum:
+        - kubernetes
+        - docker
+        - ec2
