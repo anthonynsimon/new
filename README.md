@@ -84,3 +84,17 @@ new examples/example-project
 ```
 
 Done!
+
+
+
+## Contributing
+To get started take a look at our [contribution guidelines](CONTRIBUTING.md) for information about our process and where you can fit in!
+
+
+## Changelog
+You can check our [changelog](CHANGELOG.md) for information about releases.
+
+
+## License
+See [LICENSE](LICENSE).
+
