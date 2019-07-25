@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/anthonynsimon/new/pkg"
+	lib "github.com/anthonynsimon/new/pkg"
 	"github.com/spf13/cobra"
 )
 
@@ -13,7 +13,7 @@ var rootCmd = &cobra.Command{
 	Version: "0.1.0",
 	Use:     "new [template path] [destination path]",
 	Short:   "render custom templates",
-	Example: "new templates/team-project .",
+	Example: "new templates/example-project",
 	Args:    cobra.MinimumNArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 		if len(args) == 0 {
