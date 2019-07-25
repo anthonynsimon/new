@@ -15,7 +15,7 @@ import (
 
 var (
 	// configFilename is the root template config to look for when rendering a template
-	configFilename = ".new.yml"
+	configFilename = ".new.yaml"
 )
 
 // templateCfg is the parsed template config
