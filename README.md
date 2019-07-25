@@ -3,19 +3,29 @@
 Create configurable project templates.
 
 ```
-$ new -h
-render custom templates
+new -h
 
-Usage:
-  new [template path] [destination path] [flags]
-
-Examples:
-new templates/team-project .
-
-Flags:
-  -h, --help      help for new
-      --version   version for new
+> render custom templates
+> 
+> Usage:
+>   new [template path] [destination path] [flags]
+> 
+> Examples:
+> new templates/team-project .
+> 
+> Flags:
+>   -h, --help      help for new
+>       --version   version for new
 ```
+
+### Installation
+
+Assuming you have [Go installed](https://golang.org/):
+
+```bash
+go get github.com/anthonynsimon/new
+```
+
 
 ### Usage:
 
@@ -23,7 +33,7 @@ Flags:
 2. Add a `.new.yaml` file:
 
 ```yaml
-# .new.yaml
+# examples/example-project/.new.yaml
 
 version: '1'
 
@@ -48,30 +58,29 @@ params:
 3. Template it at the destination directory.
 
 ```
-$ new examples/example-project
-
+new examples/example-project
 
 > Example codebase project template
 
 > What's the name for the project? my-new-project
 > What kind of deployment should be included? ✔ kubernetes
 
-Rendering my-new-project
-Rendering my-new-project/Pipfile
-Rendering my-new-project/Pipfile.lock
-Rendering my-new-project/README.md
-Rendering my-new-project/bin
-Rendering my-new-project/bin/.gitkeep
-Rendering my-new-project/conf
-Rendering my-new-project/conf/local
-Rendering my-new-project/conf/local/app.yaml
-Rendering my-new-project/deploy
-Rendering my-new-project/deploy/.gitkeep
-Rendering my-new-project/deploy/deploy.yml
-Rendering my-new-project/docs
-Rendering my-new-project/docs/.gitkeep
-Rendering my-new-project/src
-Rendering my-new-project/src/.gitkeep
+> Rendering my-new-project
+> Rendering my-new-project/Pipfile
+> Rendering my-new-project/Pipfile.lock
+> Rendering my-new-project/README.md
+> Rendering my-new-project/bin
+> Rendering my-new-project/bin/.gitkeep
+> Rendering my-new-project/conf
+> Rendering my-new-project/conf/local
+> Rendering my-new-project/conf/local/app.yaml
+> Rendering my-new-project/deploy
+> Rendering my-new-project/deploy/.gitkeep
+> Rendering my-new-project/deploy/deploy.yml
+> Rendering my-new-project/docs
+> Rendering my-new-project/docs/.gitkeep
+> Rendering my-new-project/src
+> Rendering my-new-project/src/.gitkeep
 ```
 
 Done!
