@@ -48,7 +48,7 @@ params:
 3. Template it at the destination directory.
 
 ```
-$ new examples/example-project my-new-project 
+$ new examples/example-project
 
 
 > Example codebase project template
@@ -56,22 +56,22 @@ $ new examples/example-project my-new-project
 > What's the name for the project? my-new-project
 > What kind of deployment should be included? ✔ kubernetes
 
-Rendering my-new-project/my-new-project
-Rendering my-new-project/my-new-project/Pipfile
-Rendering my-new-project/my-new-project/Pipfile.lock
-Rendering my-new-project/my-new-project/README.md
-Rendering my-new-project/my-new-project/bin
-Rendering my-new-project/my-new-project/bin/.gitkeep
-Rendering my-new-project/my-new-project/conf
-Rendering my-new-project/my-new-project/conf/local
-Rendering my-new-project/my-new-project/conf/local/app.yaml
-Rendering my-new-project/my-new-project/deploy
-Rendering my-new-project/my-new-project/deploy/.gitkeep
-Rendering my-new-project/my-new-project/deploy/deploy.yml
-Rendering my-new-project/my-new-project/docs
-Rendering my-new-project/my-new-project/docs/.gitkeep
-Rendering my-new-project/my-new-project/src
-Rendering my-new-project/my-new-project/src/.gitkeep
+Rendering my-new-project
+Rendering my-new-project/Pipfile
+Rendering my-new-project/Pipfile.lock
+Rendering my-new-project/README.md
+Rendering my-new-project/bin
+Rendering my-new-project/bin/.gitkeep
+Rendering my-new-project/conf
+Rendering my-new-project/conf/local
+Rendering my-new-project/conf/local/app.yaml
+Rendering my-new-project/deploy
+Rendering my-new-project/deploy/.gitkeep
+Rendering my-new-project/deploy/deploy.yml
+Rendering my-new-project/docs
+Rendering my-new-project/docs/.gitkeep
+Rendering my-new-project/src
+Rendering my-new-project/src/.gitkeep
 ```
 
 Done!
