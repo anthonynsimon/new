@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/anthonynsimon/new/lib"
+	"github.com/anthonynsimon/new/pkg"
 	"github.com/spf13/cobra"
 )
 
